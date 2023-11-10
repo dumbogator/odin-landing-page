@@ -1,10 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 /* font imported: Roboto
-weights: 300, 400, 700 */
+weights: 300, 400, 700, 900 */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* hero-section */
+
+
+/* navbar */
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+.header-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    color: #cfd0d3;
+}
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    gap: 35vw;
+}
+.header-links li{
+    cursor:pointer;
+}
+
+
+/* hero section main part */
+.main1{
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+    margin: 70px 0;
+}
+.hero-main-content{
+    display: flex;
+    flex-direction: column;
+}
+.hero-btn{
+    margin: 15px 0;
+    width: 120px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.hero-section{
+    background-color: #1F2937;
+    height: 70vh;
+    padding: 0 170px;
+}
+.aside-image{
+    width: 500px;
+    height: 300px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero-para{
+    font-size: 18px;
+    color: #cfd0d3;
 }
