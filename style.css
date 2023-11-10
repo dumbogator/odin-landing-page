@@ -49,7 +49,7 @@ weights: 100, 300, 400, 700, 900 */
     display: flex;
     flex-direction: column;
 }
-.hero-btn{
+.btn{
     margin: 15px 0;
     width: 120px;
     padding: 10px;
@@ -136,4 +136,40 @@ weights: 100, 300, 400, 700, 900 */
     text-align: end;
     font-size: 24px;
     color: #1F2937;
+}
+
+
+
+/* main 4 */
+.main4{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: #3882f6;
+    margin: 15vh;
+    border-radius: 15px;
+    height: 20vh;
+    width: 60vw;
+}
+.cta h3{
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.cta p{
+    color: #cfd0d3;
+}
+
+.cta button{
+    border: 2px solid #fff;
+    width: 150px;
+    height: 40px;
 }
