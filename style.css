@@ -173,3 +173,14 @@ weights: 100, 300, 400, 700, 900 */
     width: 150px;
     height: 40px;
 }
+
+
+footer{
+    height: 13vh;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
